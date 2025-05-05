@@ -1,73 +1,79 @@
 # 🛒 Solution-Monoprix
 
-Ce dépôt réunit deux volets complémentaires pour améliorer la performance de Monoprix :
+This repository combines two complementary components to enhance Monoprix's performance:
 
-- 🔍 **Des algorithmes de Machine Learning**
-- 📊 **Des tableaux de bord Power BI**
-
----
-
-## 🎯 Objectifs du projet (Business & Data Science)
-
-Ce projet répond à une feuille de route stratégique axée sur l'optimisation des performances :
-
-### 🔧 1. Optimiser la gestion financière
-- Accélérer les paiements fournisseurs
-  - Suivre les paiements
-  - Détecter les retards avec l’IA
-  - Automatiser les relances
-- Renforcer le contrôle financier
-  - Détecter les erreurs
-  - Identifier les fraudes
-  - Réduire les coûts et augmenter les revenus
-- Suivre les KPI via Power BI
-
-### 📈 2. Optimiser le positionnement sur le marché
-- Analyse des prix concurrents
-- Analyse des promotions
-- Positionnement produit
-- Analyse des avis clients
-
-### 🏪 3. Accroître la rentabilité des magasins
-- Identifier les "produits magiques"
-- Améliorer l'efficacité opérationnelle
+* 🔍 **Machine Learning Algorithms**
+* 📊 **Power BI Dashboards**
 
 ---
 
-## 📁 Contenu du dépôt
+## 🎯 Project Objectives (Business & Data Science)
 
-### 🔬 Notebooks Jupyter (Machine Learning)
+This project aligns with a strategic roadmap focused on optimizing performance:
 
-| Fichier                              | Objectif couvert                                   |
-|--------------------------------------|----------------------------------------------------|
-| `clustering_litiges_final.ipynb`     | Segmentation des litiges fournisseurs              |
-| `Erreur.ipynb`                       | Détection des erreurs comptables                   |
-| `obj_descriptif(detect erreur).ipynb`| Analyse descriptive des anomalies                  |
-| `Retard-objectif.ipynb`             | Prédiction des retards fournisseurs                |
-| `Revenue-obj.ipynb`                 | Prédiction des revenus futurs                      |
+### 🔧 1. Optimize Financial Management
 
-### 📊 Dashboards Power BI
+* Accelerate supplier payments
 
-| Fichier ou Rapport                  | Objectif couvert                                   |
-|-------------------------------------|----------------------------------------------------|
-| `Dashboard_Finance.pbix`           | Suivi des indicateurs financiers (DPO, DSO, etc.) |
-| `Dashboard_Produits.pbix`          | Analyse produit, promotions, "produits magiques"  |
-| `Dashboard_Concurrence.pbix`       | Comparaison dynamique des prix et du marché       |
-| `Dashboard_Opérations.pbix`        | KPI magasins, efficacité opérationnelle            |
+  * Track payments
+  * Detect delays using AI
+  * Automate reminders
+* Strengthen financial control
+
+  * Detect errors
+  * Identify fraud
+  * Reduce costs and increase revenues
+* Track KPIs using Power BI
+
+### 📈 2. Optimize Market Positioning
+
+* Competitor price analysis
+* Promotion analysis
+* Product positioning
+* Customer review analysis
+
+### 🏪 3. Increase Store Profitability
+
+* Identify "magic products"
+* Improve operational efficiency
 
 ---
 
-## 🧠 Technologies utilisées
+## 📁 Repository Contents
 
-- **Python**, **Scikit-Learn**, **Pandas**, **Jupyter**
-- **Power BI**
-- Git / GitHub
+### 🔬 Jupyter Notebooks (Machine Learning)
+
+| File                                  | Objective Covered                 |
+| ------------------------------------- | --------------------------------- |
+| `clustering_litiges_final.ipynb`      | Supplier dispute segmentation     |
+| `Erreur.ipynb`                        | Detection of accounting errors    |
+| `obj_descriptif(detect erreur).ipynb` | Descriptive analysis of anomalies |
+| `Retard-objectif.ipynb`               | Prediction of supplier delays     |
+| `Revenue-obj.ipynb`                   | Future revenue prediction         |
+
+### 📊 Power BI Dashboards
+
+| File or Report               | Objective Covered                              |
+| ---------------------------- | ---------------------------------------------- |
+| `Dashboard_Finance.pbix`     | Tracking financial KPIs (DPO, DSO, etc.)       |
+| `Dashboard_Produits.pbix`    | Product analysis, promotions, "magic products" |
+| `Dashboard_Concurrence.pbix` | Dynamic comparison of prices and market        |
+| `Dashboard_Opérations.pbix`  | Store KPIs, operational efficiency             |
 
 ---
 
-## 🛠️ Lancer le projet ML en local
+## 🧠 Technologies Used
+
+* **Python**, **Scikit-Learn**, **Pandas**, **Jupyter**
+* **Power BI**
+* Git / GitHub
+
+---
+
+## 🛠️ Run the ML Project Locally
 
 ```bash
 git clone https://github.com/Dhia1911/Solution-Monoprix-.git
 cd Solution-Monoprix-
 jupyter notebook
+```
